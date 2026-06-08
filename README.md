@@ -26,12 +26,13 @@ Save them as `.webp` for speed (the same name as the file you're replacing).
 Everything is in `assets/css/tokens.css`. Editing that one file re-skins the whole site.
 
 ## The newsletter signup
-The "Subscribe" forms point to your Substack at https://buildinelsalvador.substack.com/. Replace that URL in the page if your newsletter moves.
+The "Subscribe" forms point to your Substack at https://buildinelsalvador.substack.com/. The "Become a Partner / Get in touch" buttons point to your sponsor Google Form. Replace those URLs in the page if they move.
 
 ## Things to wire up before launch
-- "Apply to join" and "Get in touch" buttons are placeholders. Point them at your real application form and contact email.
-- The contact email used in the footer and privacy policy is `hello@buildinelsalvador.com` / `admin@buildinelsalvador.com`. Update if needed.
-- Replace the low-res logo and partner placeholder content with final assets.
+- The contact email throughout the site is `info@buildinelsalvador.com` (the address from your live site).
+- "Subscribe" -> your Substack, and "Become a Partner / Get in touch" -> your sponsor Google Form are already wired.
+- "Apply to join" is still a placeholder (it scrolls to the membership section). Point it at a real application form, the app, or a Calendly when ready.
+- Replace the two "Partner" placeholder blocks with real partner content when available.
 
 ## Request a change
 Message everybodyknowsyou.com with what you'd like changed, and we'll handle it.
