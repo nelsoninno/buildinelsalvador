@@ -1,0 +1,16 @@
+{
+  "name": "Build in El Salvador",
+  "short_name": "BIES",
+  "description": "The Bitcoin-powered network for entrepreneurs and builders in El Salvador.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#121E5A",
+  "theme_color": "#0047AB",
+  "lang": "en",
+  "icons": [
+    {"src": "/favicon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/favicon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any"}
+  ]
+}

@@ -1,0 +1,50 @@
+/* tokens.css — COLORS + FONTS only. The single source of truth.
+   Edit this one file to re-skin the whole site.
+   Brand: Build in El Salvador (BIES). Palette + type from the official brand guidelines. */
+:root{
+  /* ---- Primary brand palette ---- */
+  --cobalt:       #0047AB;   /* Cobalt Blue  — primary accent, blue bands, links */
+  --orange:       #FF5B00;   /* Blaze Orange — primary accent, buttons, orange bands */
+  --snow:         #F9F5F4;   /* Snow         — page background */
+  --navy:         #121E5A;   /* Deep Navy    — body text, dark bands, footer */
+
+  /* ---- Orange scale ---- */
+  --orange-400:   #FE6B19;
+  --orange-300:   #FE7E38;
+  --orange-200:   #FD9156;
+  --orange-100:   #FCA474;
+  --orange-90:    #FCB892;
+  --orange-80:    #FBCAB0;
+  --orange-70:    #FADBCB;
+  --orange-60:    #FAE8E0;
+
+  /* ---- Cobalt scale ---- */
+  --blue-100:     #053D97;
+  --blue-200:     #093383;
+  --blue-300:     #0E286E;
+
+  /* ---- Semantic roles ---- */
+  --bg:        var(--snow);
+  --ink:       var(--navy);
+  --accent:    var(--orange);     /* primary CTA / buttons */
+  --accent-2:  var(--cobalt);     /* secondary accent */
+  --muted:     #5A607F;           /* secondary text (navy-tinted grey) */
+  --surface:   #FFFFFF;           /* cards / panels */
+  --line:      #E6E2E0;           /* hairlines */
+  --panel:     #ECE6E1;           /* highlighted gray section background */
+
+  /* ---- Footer credit colors (read by the EKY credit logo) ---- */
+  --footer-bg: var(--navy);
+  --footer-fg: var(--snow);
+
+  /* ---- Fonts ----
+     Display: PP Formula Narrow (Bold) is the brand typeface (commercial/licensed).
+     Saira Condensed is used here as the closest free Google-Fonts stand-in until the
+     licensed PP Formula Narrow files are dropped into /assets/fonts/.
+     Body: Inter (matches the brand spec exactly). */
+  --font-display: 'Saira Condensed', 'PP Formula Narrow', 'Arial Narrow', system-ui, sans-serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+
+  /* ---- Layout ---- */
+  --max: 1180px;
+}

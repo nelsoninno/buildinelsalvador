@@ -1,0 +1,49 @@
+# Build in El Salvador (BIES) — Full Profile
+
+> Build in El Salvador (BIES) is a decentralized, AI-powered, Bitcoin-native network that connects entrepreneurs and builders to the right people, resources, and capital to move their vision forward in El Salvador.
+
+## Founder's story (Michael Ruiz)
+In 2023, Michael Ruiz moved to El Salvador, drawn to its frontier spirit, the burgeoning Bitcoin community, and the sense that something big was being built there. While momentum gained quickly for him and his company, things took an abrupt turn in 2024: the Bitcoin community in El Salvador entered a bear market, Bitcoiners were leaving the country, and the company he had built around this ecosystem was splitting apart. The emotional toll, and the challenge of navigating this alone in a foreign country, was nearly enough for him to leave too.
+
+A chance meeting introduced him to a group of entrepreneurs who were still building and still optimistic about El Salvador's future. Reinvigorated, he decided to stay and rebuild his company into what BIES is today. He started reaching out to local entrepreneurs and hosting informal gatherings, a sort of support group for entrepreneurs to talk about what's on their minds. This grew into workshops and roundtables, which remain foundational to BIES. Since then, BIES has expanded into a comprehensive network and infrastructure that connects builders to the people, resources, and capital they need.
+
+## What BIES is
+BIES acts as a coordination layer for high-agency entrepreneurs and builders in El Salvador. If you are actively building a project, BIES helps you find the right partners, investors, vendors, and peers. If you want to join someone's team, BIES helps you find the right projects to contribute your expertise to. The network runs on a decentralized, AI-powered, Bitcoin-native infrastructure.
+
+## How BIES supports its builders
+- Events: Workshops, roundtables, and retreats give builders the opportunity to meet beyond the digital realm. Hosted in small group settings, discussions are open, productive, and protected under the Chatham House Rule.
+- BIES-Certified Vendor Network: Connects members to trusted vendors who are serious, trustworthy, and have a history of proof of work within the ecosystem.
+- BIES Project Directory: Lists active projects emerging from the ecosystem. Builders post their own projects to find partners, investors, and teammates, or browse to join an existing team. Provides visibility to investors.
+- Builder Spotlight Newsletter: Highlights the builders, projects, and journeys that brought members to El Salvador.
+- Private Nostr Network: The digital HQ where builders connect, collaborate, coordinate, and interact economically. Helps members stay connected when out of the country.
+- Co-Work Hotel: A physical home base to work and connect in person in El Salvador.
+
+## Core values (How We Operate)
+1. We empower individual agency. We are high-agency builders who take initiative, take bold action even in imperfect conditions, and respond to challenges with resilience, creativity, and optimism.
+2. We collaborate towards a more prosperous future. Collaboration, not competition, is the path to prosperity. We operate on a low time preference and build long-term value.
+3. We build on transparent, open, honest foundations. We use open and decentralized protocols, where trust is verifiable through proof of work and sound money. We believe this foundational layer should be Bitcoin-native.
+4. We leverage technology that liberates and uplifts our humanity. We embrace technology, including AI, to unlock new levels of human agency, capability, and coordination.
+5. We embrace a regenerative way of living. We seek out or build alternative structures that sustain humanity, abundance, and harmony with nature.
+
+## Contribution to El Salvador
+The National Bitcoin Office (ONBTC) under President Nayib Bukele envisions dynamic new projects emerging from El Salvador that contribute to the nation's revitalization, a Renaissance 2.0. BIES advances this vision by attracting entrepreneurs, investors, and bright minds to El Salvador and keeping talent in the country with a supporting ecosystem, and by providing education and employment opportunities to Salvadorans. BIES contributes through innovation, highly-skilled talent, job creation, outside investment, a Bitcoin-native economy, educational workshops and training sessions, tourism, and circular economies.
+
+## By the numbers
+- 100+ community members
+- 50+ events held
+- $100,000+ capital invested
+
+## Member voices
+- Jess Allen: "The masterminds bubbling up out of this group is super inspiring."
+- Amelie (entrepreneur, hotel and catering): "A sense of being around others and sharing resources is something new to me that I really find valuable."
+- Brent (entrepreneur, farming): "There are moments where I have doubts and insecurities, and to be around people where I can not only share that, but also find strength, motivation, and sustainability."
+
+## Frequently asked questions
+- What is BIES? A network for entrepreneurs and builders serious about decentralization, Bitcoin, and regenerative living, acting as a coordination layer connecting members to people, resources, and capital in El Salvador.
+- Who is BIES for? High-agency entrepreneurs and builders, whether building their own project or joining someone else's team.
+- What do members get? Workshops and retreats, a certified vendor network, a private Nostr network, a project directory, a co-work hotel, and the Builder Spotlight newsletter.
+- How do I join? Apply through the membership page. Applications are reviewed to ensure a right fit around shared values.
+- Where is BIES based? El Salvador.
+
+## Media and consultancy
+Beyond the membership network, BIES runs the Builder Spotlight newsletter on Substack (hundreds of subscribers) and publishes interviews, articles, and events that connect the dots between Bitcoin
