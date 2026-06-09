@@ -2,7 +2,8 @@
 
 /* ---------- Reset & base ---------- */
 *{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{overflow-x:hidden}
 body{
   font-family:var(--font-body);
   color:var(--ink);
@@ -20,7 +21,7 @@ h1{font-size:clamp(2.6rem,6vw,4.8rem)}
 h2{font-size:clamp(2rem,4vw,3.2rem)}
 h3{font-size:clamp(1.3rem,2vw,1.7rem)}
 
-.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(1.1rem,4vw,2.2rem)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(1.25rem,5vw,2.4rem)}
 section{position:relative}
 
 /* ---------- Eyebrow / labels ---------- */
@@ -79,11 +80,13 @@ section{position:relative}
 .photo-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:.5rem;margin-top:2.6rem}
 .photo-strip img{aspect-ratio:3/4;object-fit:cover;width:100%;height:100%;border-radius:6px}
 .photo-strip.cols-4{grid-template-columns:repeat(4,1fr)}
+.photo-strip.cols-3{grid-template-columns:repeat(3,1fr)}
 
 /* ---------- Generic section spacing ---------- */
 .section{padding:clamp(3rem,6vw,5rem) 0}
 .section-tight{padding:clamp(2rem,4vw,3rem) 0}
 .panel{background:var(--panel);border-radius:22px;padding:clamp(2.2rem,5vw,4rem) clamp(1.4rem,4vw,3rem)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:2.2rem;text-align:left}
 
 /* ---------- Split (text + media) ---------- */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.6rem,4vw,3.4rem);align-items:center}
@@ -218,6 +221,13 @@ section{position:relative}
   .nav-links,.nav-cta .btn{display:none}
   .nav-toggle{display:block}
   .nav.open .nav-links{display:flex;position:absolute;top:74px;left:0;right:0;background:var(--snow);flex-direction:column;padding:1rem 1.4rem;gap:1rem;border-bottom:1px solid var(--line);box-shadow:0 18px 30px -20px rgba(18,30,90,.4)}
-  .split,.feature,.feature.flip,.signal .cards,.testimonials .grid3,.partners{grid-template-columns:1fr}
+  .split,.feature,.feature.flip,.signal .cards,.testimonials .grid3,.steps,.partners{grid-template-columns:1fr}
   .split.media-left,.feature.flip{direction:ltr}
-  .photo-strip,.photo-strip.cols-4{gri
+  .photo-strip,.photo-strip.cols-4,.photo-strip.cols-3{grid-template-columns:repeat(2,1fr)}
+  .stats{grid-template-columns:1fr;gap:2rem}
+  .stat .num{font-size:clamp(2.2rem,11vw,3rem);overflow-wrap:anywhere}
+  .masonry{columns:1}
+}
+@media (min-width:881px) and (max-width:1080px){
+  .masonry{columns:2}
+}
