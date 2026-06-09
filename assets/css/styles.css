@@ -227,6 +227,11 @@ section{position:relative}
   .stats{grid-template-columns:1fr;gap:2rem}
   .stat .num{font-size:clamp(2.2rem,11vw,3rem);overflow-wrap:anywhere}
   .masonry{columns:1}
+  /* tiny uniform side gutter on the whole page content (incl. full-width colored bands) */
+  main{padding-left:4vw;padding-right:4vw}
+  main .wrap{padding-left:0;padding-right:0}
+  /* About hero: 3rd image spans the full width on mobile */
+  .photo-strip.cols-3 img:nth-child(3){grid-column:1 / -1;aspect-ratio:16/10}
 }
 @media (min-width:881px) and (max-width:1080px){
   .masonry{columns:2}
