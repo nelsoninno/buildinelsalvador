@@ -27,11 +27,13 @@ section{position:relative}
 /* ---------- Eyebrow / labels ---------- */
 .eyebrow{
   font-family:var(--font-body);
-  font-weight:700;letter-spacing:.22em;text-transform:uppercase;
-  font-size:.72rem;color:var(--orange);
-  display:block;margin-bottom:1rem;
+  font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  font-size:clamp(1rem,2.2vw,1.3rem);color:var(--orange);
+  display:block;margin-bottom:1.1rem;
 }
 .eyebrow.on-blue,.eyebrow.on-navy{color:var(--orange-200)}
+.band-orange .eyebrow{color:var(--navy)}
+.band-blue .eyebrow,.band-navy .eyebrow{color:var(--orange-200)}
 .center{text-align:center}
 .lead{font-size:1.06rem;color:var(--muted);max-width:62ch}
 .center .lead{margin-left:auto;margin-right:auto}
@@ -85,6 +87,15 @@ section{position:relative}
 /* ---------- Generic section spacing ---------- */
 .section{padding:clamp(3rem,6vw,5rem) 0}
 .section-tight{padding:clamp(2rem,4vw,3rem) 0}
+.has-decor{position:relative;overflow:hidden}
+.has-decor>*:not(.decor){position:relative;z-index:1}
+.decor{position:absolute;pointer-events:none;z-index:0;user-select:none}
+.decor-ring{width:clamp(150px,24vw,320px);opacity:.9}
+.decor-ico{width:clamp(48px,7vw,84px);opacity:.5}
+.decor-tr{top:-46px;right:-56px}
+.decor-bl{bottom:-54px;left:-60px}
+.decor-tl{top:-34px;left:-46px}
+.decor-br{bottom:-44px;right:-54px}
 .panel{background:var(--panel);border-radius:22px;padding:clamp(2.2rem,5vw,4rem) clamp(1.4rem,4vw,3rem)}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:2.2rem;text-align:left}
 
@@ -111,13 +122,17 @@ section{position:relative}
 .band-navy{background:var(--navy);color:#fff}
 .band-snow{background:var(--snow)}
 .band-white{background:#fff}
+.band-gray{background:var(--panel)}
 .band-orange h2,.band-blue h2,.band-navy h2{color:#fff}
 .band-orange .lead,.band-blue .lead,.band-navy .lead{color:rgba(255,255,255,.9)}
+.band-blue h1,.band-navy h1{color:#fff}
+.band-blue .split h2,.band-blue .split h3{color:#fff}
+.band-blue .split .copy p{color:rgba(255,255,255,.92)}
 
 /* ---------- Testimonials ---------- */
 .testimonials .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.2rem,3vw,2.4rem);margin-top:2.2rem}
 .tcard{text-align:center}
-.tcard .avatar{width:78px;height:78px;border-radius:50%;margin:0 auto 1rem;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700;font-size:1.7rem;color:#fff;border:3px solid rgba(255,255,255,.55)}
+.tcard .avatar{width:140px;height:140px;border-radius:50%;margin:0 auto 1.2rem;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700;font-size:3rem;color:#fff;border:4px solid rgba(255,255,255,.55)}
 .tcard img.avatar{object-fit:cover;display:block}
 .band-snow .tcard img.avatar,.band-white .tcard img.avatar{border-color:rgba(0,71,171,.2)}
 .mcard .who img.avatar{object-fit:cover}
@@ -181,7 +196,7 @@ section{position:relative}
 .mcard .body{padding:1.2rem 1.3rem}
 .mcard .body p{color:var(--navy);font-size:1rem;line-height:1.55}
 .mcard .who{margin-top:.9rem;display:flex;align-items:center;gap:.7rem}
-.mcard .who .avatar{width:42px;height:42px;border-radius:50%;background:var(--cobalt);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700}
+.mcard .who .avatar{width:52px;height:52px;border-radius:50%;background:var(--cobalt);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700}
 .mcard .who b{display:block;font-size:.95rem;color:var(--navy)}
 .mcard .who span{font-size:.82rem;color:var(--muted)}
 .mcard.quote .body{border-top:5px solid var(--orange)}

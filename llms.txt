@@ -35,4 +35,10 @@ Build in El Salvador, known as BIES, is a network and coordination layer for ent
 
 ## Links
 - [Website](https://buildinelsalvador.com/)
-- [Membership](https://buildinelsalvad
+- [Membership](https://buildinelsalvador.com/membership.html)
+- [Member Stories](https://buildinelsalvador.com/stories.html)
+- [About](https://buildinelsalvador.com/about.html)
+- [App](https://app.buildinelsalvador.com/)
+- [Builder Spotlight Newsletter](https://buildinelsalvador.substack.com/)
+- [Book a consultancy call](https://calendly.com/sovmindset/new-meeting)
+- [Full content](https://buildinelsalvador.com/llms-full.txt)
