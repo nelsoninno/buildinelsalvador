@@ -91,6 +91,8 @@ section{position:relative}
 .has-decor>*:not(.decor){position:relative;z-index:1}
 .decor{position:absolute;pointer-events:none;z-index:0;user-select:none}
 .decor-ring{width:clamp(150px,24vw,320px);opacity:.9}
+.decor-ring-sm{width:clamp(80px,12vw,160px);opacity:.9}
+.decor-blc{bottom:6%;left:0;top:auto;right:auto}
 .decor-ico{width:clamp(48px,7vw,84px);opacity:.5}
 .decor-tr{top:-46px;right:-56px}
 .decor-bl{bottom:-54px;left:-60px}
@@ -196,7 +198,8 @@ section{position:relative}
 .mcard .body{padding:1.2rem 1.3rem}
 .mcard .body p{color:var(--navy);font-size:1rem;line-height:1.55}
 .mcard .who{margin-top:.9rem;display:flex;align-items:center;gap:.7rem}
-.mcard .who .avatar{width:52px;height:52px;border-radius:50%;background:var(--cobalt);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700}
+.mcard .who .avatar{width:88px;height:88px;border-radius:50%;background:var(--cobalt);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700;font-size:1.6rem;flex:0 0 auto}
+.mcard.no-quote .body{border-top:5px solid var(--cobalt)}
 .mcard .who b{display:block;font-size:.95rem;color:var(--navy)}
 .mcard .who span{font-size:.82rem;color:var(--muted)}
 .mcard.quote .body{border-top:5px solid var(--orange)}
