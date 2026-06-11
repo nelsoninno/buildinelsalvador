@@ -195,6 +195,7 @@ section{position:relative}
 .masonry{columns:3;column-gap:1.2rem;margin-top:2.4rem}
 .mcard{break-inside:avoid;margin-bottom:1.2rem;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 18px 40px -32px rgba(18,30,90,.5)}
 .mcard img{width:100%;display:block}
+.mcard .mcard-video{width:100%;display:block;background:#000}
 .mcard .body{padding:1.2rem 1.3rem}
 .mcard .body p{color:var(--navy);font-size:1rem;line-height:1.55}
 .mcard .who{margin-top:.9rem;display:flex;align-items:center;gap:.7rem}
