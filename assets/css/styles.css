@@ -174,6 +174,11 @@ section{position:relative}
 .mcard .who img.avatar{object-fit:cover}
 .tcard p{font-size:1rem;line-height:1.6}
 .tcard .who{margin-top:.8rem;font-weight:700;font-family:var(--font-display);letter-spacing:.02em}
+.tcard .who b{display:block;font-family:var(--font-display);font-weight:700;font-size:1.05rem;letter-spacing:.02em}
+.tcard .who span{display:block;font-family:var(--font-body);font-weight:500;font-size:.85rem;letter-spacing:0;opacity:.92}
+.tcard .who .loc{display:block;margin-top:.3rem;font-size:.8rem;font-weight:600;opacity:.95}
+.band-orange .tcard a,.band-blue .tcard a,.band-navy .tcard a{color:#fff;text-decoration:underline}
+.feature-quote .fq-loc{display:block;margin-top:.5rem;font-family:var(--font-body);font-weight:600;font-size:.85rem;color:var(--orange)}
 .band-orange .avatar{background:var(--navy)}
 .band-blue .avatar{background:var(--orange)}
 .band-snow .avatar,.band-white .avatar{background:var(--cobalt);border-color:rgba(0,71,171,.18)}
