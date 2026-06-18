@@ -21,7 +21,7 @@ h1{font-size:clamp(2.6rem,6vw,4.8rem)}
 h2{font-size:clamp(2rem,4vw,3.2rem)}
 h3{font-size:clamp(1.3rem,2vw,1.7rem)}
 
-.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(1.25rem,5vw,2.4rem)}
+.wrap{width:min(100% - clamp(2.4rem,8vw,6rem), var(--max));margin-inline:auto}
 section{position:relative}
 
 /* ---------- Eyebrow / labels ---------- */
@@ -62,8 +62,8 @@ section{position:relative}
   position:sticky;top:0;z-index:50;background:rgba(249,245,244,.92);
   backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid var(--line);
 }
-.nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:74px}
-.brand img{height:38px;width:auto}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:84px}
+.brand img{height:50px;width:auto}
 .nav-links{display:flex;align-items:center;gap:1.9rem;list-style:none}
 .nav-links a{color:var(--navy);font-weight:500;font-size:.96rem}
 .nav-links a:hover{color:var(--orange);text-decoration:none}
@@ -73,13 +73,14 @@ section{position:relative}
 
 /* ---------- Hero ---------- */
 .hero{padding:clamp(3.2rem,7vw,5.6rem) 0 2.4rem;text-align:center}
+.hero:has(.hero-volcano){padding-bottom:clamp(7rem,12vw,14rem)}
 .hero h1{max-width:none;margin:0 auto .2em}
 .hero .lead{margin:1.4rem auto 0}
 .hero .cta-row{margin-top:2rem;display:flex;gap:.9rem;justify-content:center;flex-wrap:wrap}
 .hero-accent{color:var(--orange)}
 
 /* ---------- Photo strip ---------- */
-.photo-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:.5rem;margin-top:2.6rem}
+.photo-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:.5rem;margin-top:2.6rem;margin-bottom:clamp(2rem,4vw,3.5rem);max-width:92%;margin-left:auto;margin-right:auto}
 .photo-strip img{aspect-ratio:3/4;object-fit:cover;width:100%;height:100%;border-radius:6px}
 .photo-strip.cols-4{grid-template-columns:repeat(4,1fr)}
 .photo-strip.cols-3{grid-template-columns:repeat(3,1fr)}
@@ -98,8 +99,40 @@ section{position:relative}
 .decor-bl{bottom:-54px;left:-60px}
 .decor-tl{top:-34px;left:-46px}
 .decor-br{bottom:-44px;right:-54px}
+/* ---- Floating connector decorations (white sections only) ---- */
+.conn{opacity:.16}
+.hero-volcano{left:0;right:0;bottom:1rem;top:auto;width:100%;height:clamp(60px,8vw,100px);object-fit:contain;object-position:bottom;opacity:.25}
+.hero.has-decor{overflow:visible}
+.hero .hero-volcano{left:50%;right:auto;transform:translateX(-50%);width:100vw;max-width:none;height:auto;bottom:0;object-fit:fill}
+.stories-vsec{position:relative;overflow:visible;padding-bottom:clamp(5rem,9vw,9rem)}
+.stories-vsec>.masonry{position:relative;z-index:1}
+.stories-volcano{position:absolute;left:50%;transform:translateX(-50%);bottom:0;width:100vw;max-width:none;height:auto;opacity:.22;pointer-events:none;z-index:0}
+@keyframes connFloatA{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-16px) rotate(4deg)}}
+@keyframes connFloatB{0%,100%{transform:translateY(0) rotate(3deg)}50%{transform:translateY(-12px) rotate(-5deg)}}
+@keyframes connFloatC{0%,100%{transform:translateY(-6px) rotate(-2deg)}50%{transform:translateY(10px) rotate(3deg)}}
+.conn-a{animation:connFloatA 9s ease-in-out infinite}
+.conn-b{animation:connFloatB 11s ease-in-out infinite}
+.conn-c{animation:connFloatC 13s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.conn{animation:none}}
+
+/* ---- Emphasized "big" testimonial (homepage) ---- */
+.feature-quote{position:relative;background:var(--panel);border-radius:22px;padding:clamp(2rem,5vw,3.6rem);display:grid;grid-template-columns:auto 1fr;gap:clamp(1.5rem,4vw,3rem);align-items:center;text-align:left}
+.feature-quote .fq-avatar{width:clamp(110px,16vw,184px);height:clamp(110px,16vw,184px);border-radius:50%;object-fit:cover;border:5px solid #fff;box-shadow:0 16px 40px -20px rgba(18,30,90,.55)}
+.feature-quote blockquote{margin:0}
+.feature-quote .fq-quote{font-family:var(--font-display);font-weight:700;font-size:clamp(1.4rem,2.7vw,2.2rem);line-height:1.22;color:var(--navy)}
+.feature-quote .fq-who{margin-top:1.1rem;font-family:var(--font-display);font-weight:700;font-size:1.2rem;color:var(--navy);letter-spacing:.02em}
+.feature-quote .fq-who span{display:block;font-family:var(--font-body);font-weight:500;color:var(--muted);font-size:.95rem;letter-spacing:0}
+.feature-quote .fq-tag{position:absolute;top:1.1rem;right:1.3rem;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);font-weight:700}
+@media (max-width:680px){.feature-quote{grid-template-columns:1fr;text-align:center}.feature-quote .fq-avatar{margin:0 auto}.feature-quote .fq-tag{position:static;display:block;margin-bottom:.8rem}}
 .panel{background:var(--panel);border-radius:22px;padding:clamp(2.2rem,5vw,4rem) clamp(1.4rem,4vw,3rem)}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:2.2rem;text-align:left}
+.soon-tag{display:inline-block;font-family:var(--font-body);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--orange);border:1.6px solid var(--orange);border-radius:999px;padding:.28rem .85rem;margin-bottom:.8rem}
+.value-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:1.4rem;margin-top:1.8rem}
+.vcard{background:#fff;border:1px solid var(--line);border-top:4px solid var(--orange);border-radius:16px;padding:clamp(1.5rem,3vw,2.2rem)}
+.vcard .vnum{display:block;font-family:var(--font-display);font-weight:700;font-size:clamp(2.8rem,5vw,4rem);color:var(--orange);line-height:1;margin-bottom:.2rem}
+.vcard h4{font-size:clamp(1.25rem,2vw,1.6rem);color:var(--navy);margin-bottom:.5rem}
+.vcard p{color:var(--muted);font-size:1rem;line-height:1.65}
+@media (max-width:760px){.value-cards{grid-template-columns:1fr}}
 
 /* ---------- Split (text + media) ---------- */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.6rem,4vw,3.4rem);align-items:center}
@@ -155,7 +188,7 @@ section{position:relative}
 
 /* ---------- Stats ---------- */
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;text-align:center;margin-top:1rem}
-.stat .num{font-family:var(--font-display);font-weight:700;font-size:clamp(2.6rem,6vw,4.2rem);color:var(--cobalt);line-height:1}
+.stat .num{font-family:var(--font-display);font-weight:700;font-size:clamp(2.6rem,6vw,4.2rem);color:var(--orange);line-height:1}
 .stat .lbl{color:var(--muted);font-size:.95rem;margin-top:.4rem}
 
 /* ---------- Values list ---------- */
@@ -204,6 +237,7 @@ section{position:relative}
 .mcard.no-quote .body{border-top:5px solid var(--cobalt)}
 .mcard .who b{display:block;font-size:.95rem;color:var(--navy)}
 .mcard .who span{font-size:.82rem;color:var(--muted)}
+.mcard .who .loc{display:block;margin-top:.15rem;font-size:.78rem;font-weight:600;color:var(--navy);letter-spacing:.01em}
 .mcard.quote .body{border-top:5px solid var(--orange)}
 
 /* ---------- Privacy / legal ---------- */
@@ -230,6 +264,12 @@ section{position:relative}
 .eky-credit:hover{opacity:1;text-decoration:none}
 .eky-credit__text{color:var(--footer-fg)}
 .eky-credit svg{--eky-bg:var(--footer-bg);height:16px;width:auto;display:block}
+.fsocials{display:flex;gap:.6rem;margin-top:1.2rem}
+.fsocials a{width:38px;height:38px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:rgba(255,255,255,.1);color:var(--snow);text-decoration:none}
+.fsocials a:hover{background:var(--orange);color:#fff;text-decoration:none}
+.fsocials svg{width:18px;height:18px}
+.fprivacy{color:rgba(249,245,244,.6);font-size:.85rem}
+.fprivacy:hover{color:var(--orange-200);text-decoration:none}
 
 /* ---------- Scroll reveal ---------- */
 .reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
@@ -248,8 +288,6 @@ section{position:relative}
   .stat .num{font-size:clamp(2.2rem,11vw,3rem);overflow-wrap:anywhere}
   .masonry{columns:1}
   /* tiny uniform side gutter on the whole page content (incl. full-width colored bands) */
-  main{padding-left:4vw;padding-right:4vw}
-  main .wrap{padding-left:0;padding-right:0}
   /* About hero: 3rd image spans the full width on mobile */
   .photo-strip.cols-3 img:nth-child(3){grid-column:1 / -1;aspect-ratio:16/10}
 }
