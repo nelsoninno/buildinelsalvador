@@ -275,6 +275,16 @@ section{position:relative}
 .fsocials svg{width:18px;height:18px}
 .fprivacy{color:rgba(249,245,244,.6);font-size:.85rem}
 .fprivacy:hover{color:var(--orange-200);text-decoration:none}
+/* ---- Footer responsive: avoid 3-column crowding on phones ---- */
+@media (max-width:820px){
+  .footer-top{grid-template-columns:1fr 1fr;gap:1.8rem 2rem}
+  .footer-top > .fcol:first-child{grid-column:1 / -1}
+}
+@media (max-width:540px){
+  .footer-top{grid-template-columns:1fr;gap:1.8rem}
+  .footer-top > .fcol:first-child{grid-column:auto}
+  .footer-bottom{flex-direction:column;align-items:flex-start;gap:.8rem}
+}
 
 /* ---------- Scroll reveal ---------- */
 .reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
