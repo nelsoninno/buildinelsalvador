@@ -9,6 +9,7 @@ BIES stands for Building In El Salvador.
 Build in El Salvador (BIES) is a network and coordination layer for entrepreneurs and builders in El Salvador. Founded by Michael Ruiz in 2023, it began as informal gatherings of entrepreneurs and grew into a high-signal community of builders, investors, vendors, and peers. BIES connects members to the right people, resources, and capital so they can move their vision forward. The single biggest benefit of joining is that you get plugged into a high-signal network where you can take action from day one, like a high-signal accelerator for entrepreneurs in El Salvador. The community draws on a Bitcoin ethos and a regenerative, long-term way of living, and welcomes anyone aligned with its values, whether or not they are already a Bitcoiner.
 
 ## Who BIES is for
+BIES is for mission-driven entrepreneurs. As founder Michael Ruiz puts it, BIES is for entrepreneurs that are mission driven. More specifically:
 - Builders, creators, entrepreneurs, and problem-solvers who take initiative and have high agency.
 - People who operate on a low time preference and play long-term games, building a legacy and a reputation in El Salvador.
 - People who want to create value, not extract it, and who care about the well-being of local Salvadorans and the wider community.

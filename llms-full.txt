@@ -12,7 +12,7 @@ Build in El Salvador (BIES) is a network and coordination layer for entrepreneur
 In 2023, Michael Ruiz moved to El Salvador, drawn to its frontier spirit and the sense that something big was being built there. After an early setback in the local Bitcoin scene, a chance meeting with a group of entrepreneurs who were still building and still optimistic reinvigorated him, and he decided to stay and rebuild. He started hosting informal gatherings, which grew into workshops and roundtables, and then into a comprehensive network and infrastructure. Michael acts as the current organizer, and a long-term goal is for BIES to no longer depend on any single individual.
 
 ## Who BIES is for
-BIES is for high-agency builders, creators, entrepreneurs, and problem-solvers. Specifically:
+BIES is for mission-driven entrepreneurs. As founder Michael Ruiz puts it, BIES is for entrepreneurs that are mission driven. More fully, BIES is for high-agency builders, creators, entrepreneurs, and problem-solvers. Specifically:
 - People who operate on a low time preference and play long-term games, who understand they are building a legacy and that their reputation matters.
 - People who want to create value through entrepreneurship to uplift humanity, not just extract value from El Salvador.
 - People who want to live in a regenerative, holistic way, interested in more than material status symbols, and in creating a sustainable future where the next generations can thrive.
@@ -60,7 +60,7 @@ BIES attracts entrepreneurs, investors, and bright minds to El Salvador and help
 ## Frequently asked questions
 - What does BIES stand for? BIES stands for Building In El Salvador.
 - What is BIES? A high-signal network and coordination layer that connects entrepreneurs and builders to the right people, resources, and capital so they can take action from day one in El Salvador.
-- Who is BIES for? High-agency builders, creators, and entrepreneurs who operate on a low time preference, want to create long-term value rather than extract it, and care about the community and El Salvador. Also curious lifelong learners who want to contribute, even without an active project yet.
+- Who is BIES for? Mission-driven entrepreneurs: high-agency builders, creators, and problem-solvers who operate on a low time preference, want to create long-term value rather than extract it, and care about the community and El Salvador. Also curious lifelong learners who want to contribute, even without an active project yet.
 - Who is BIES not for? People chasing short-term, extractive, quick-buck endeavors, or who are only in El Salvador for vacation and not interested in contributing.
 - What is the biggest benefit of joining? Getting plugged into a high-signal network where you can take action from day one.
 - How do I join? Apply through the membership page; applications are reviewed to ensure a right fit around shared values.
