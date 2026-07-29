@@ -219,7 +219,7 @@ section{position:relative}
 .signal .inner{position:relative;z-index:1;padding:clamp(3rem,6vw,5rem) 0}
 .signal h2{color:#fff}
 .signal .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:2.4rem;text-align:left}
-.scard{border-radius:14px;padding:1.8rem 1.5rem;display:flex;flex-direction:column;gap:.7rem;box-shadow:0 24px 50px -30px rgba(0,0,0,.6)}
+.scard{border-radius:14px;padding:2.7rem 1.6rem;display:flex;flex-direction:column;gap:.85rem;box-shadow:0 24px 50px -30px rgba(0,0,0,.6)}
 .scard .ico{width:46px;height:46px}
 .scard.blue{background:var(--cobalt)}
 .scard.orange{background:var(--orange)}
@@ -227,8 +227,9 @@ section{position:relative}
 .scard h3{color:#fff;font-size:1.35rem}
 .scard p{color:rgba(255,255,255,.88);font-size:.94rem;flex:1}
 .scard .btn{align-self:flex-start;margin-top:.4rem}
-.sub-form{display:flex;gap:.5rem;margin-top:.4rem;flex-wrap:wrap}
-.sub-form input{flex:1;min-width:0;border:0;border-radius:999px;padding:.7rem 1rem;font-family:var(--font-body);font-size:.92rem}
+.sub-form{display:flex;flex-direction:column;gap:.6rem;margin-top:.7rem}
+.sub-form input{width:100%;box-sizing:border-box;border:0;border-radius:999px;padding:.8rem 1.1rem;font-family:var(--font-body);font-size:.92rem}
+.sub-form .btn{width:100%;justify-content:center;text-align:center;margin-top:0}
 
 /* ---------- Member Stories masonry ---------- */
 .masonry{columns:3;column-gap:1.2rem;margin-top:2.4rem}

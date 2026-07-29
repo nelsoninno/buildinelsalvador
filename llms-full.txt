@@ -30,8 +30,8 @@ You get plugged into a high-signal network where you can take action from day on
 ## How BIES supports its builders (events and infrastructure)
 - Events facilitation: If a member wants to host a workshop, roundtable, or retreat, BIES takes care of the organization, holds it to a quality standard, helps shape the agenda, and then promotes and markets it to fill seats with an engaged, aligned audience. So when people come to a BIES event, they know they are getting quality.
 - Documentation and reach: Events are documented by a photographer and recorded on video, then shared (for example on YouTube), so members who could not attend still benefit. Over time this turns BIES into an ecosystem and academy of sorts for people who want to build in El Salvador.
-- Digital community: A high-trust digital HQ where builders connect, collaborate, coordinate, and interact economically.
-- Vendor network, project directory, co-work hotel, and the Builder Spotlight newsletter.
+- Member chat: A high-trust member chat where builders connect, collaborate, and coordinate, on WhatsApp today with self-hosted solutions on the horizon.
+- The BIES Newsletter, a YouTube broadcast, the BIES Digital App (a private Nostr relay plus project, events, vendor, and organic farm directories and a bounty board), and the BIES Public Forum for long-form discussion and virtual calls.
 - Discussions are held in small group settings and protected under the Chatham House Rule.
 
 ## Core values (How We Operate)

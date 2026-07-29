@@ -23,8 +23,8 @@ BIES is for mission-driven entrepreneurs. As founder Michael Ruiz puts it, BIES 
 
 ## How BIES supports its builders
 - Events: BIES facilitates members' workshops, roundtables, and retreats. It handles the organization, holds events to a quality standard, helps with the agenda, and promotes them to an engaged, aligned audience. Events are documented (photography and video) and shared, so the community keeps benefiting, building an ongoing ecosystem and academy.
-- A high-trust digital community where builders connect, collaborate, and coordinate.
-- A certified vendor network, a project directory, a co-work hotel, and the Builder Spotlight newsletter.
+- A high-trust member chat where builders connect, collaborate, and coordinate (on WhatsApp today, with self-hosted solutions on the horizon).
+- The BIES Newsletter, a YouTube broadcast, the BIES Digital App (a private Nostr relay plus project, events, vendor, and organic farm directories and a bounty board), and the BIES Public Forum for long-form discussion and virtual calls.
 - Discussions are held in small group settings and protected under the Chatham House Rule.
 
 ## Core values
