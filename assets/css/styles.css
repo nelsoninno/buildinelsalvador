@@ -88,6 +88,8 @@ section{position:relative}
 /* ---------- Generic section spacing ---------- */
 .section{padding:clamp(3rem,6vw,5rem) 0}
 .section-tight{padding:clamp(2rem,4vw,3rem) 0}
+.q-tight{padding-top:2rem;padding-bottom:2rem}
+@media(min-width:681px){.q-tight{padding-top:.6rem;padding-bottom:.6rem}}
 .has-decor{position:relative;overflow:hidden}
 .has-decor>*:not(.decor){position:relative;z-index:1}
 .decor{position:absolute;pointer-events:none;z-index:0;user-select:none}
