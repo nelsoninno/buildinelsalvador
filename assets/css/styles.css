@@ -215,9 +215,9 @@ section{position:relative}
 .partner p{color:var(--muted);font-size:.96rem}
 
 /* ---------- Partner logo strip ---------- */
-.logo-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:clamp(2rem,7vw,5rem);margin-top:2.2rem}
-.logo-strip img{width:auto;height:auto;max-height:80px;max-width:210px;object-fit:contain}
-@media (max-width:680px){.logo-strip{gap:2.4rem}.logo-strip img{max-height:64px;max-width:165px}}
+.logo-strip{display:grid;grid-template-columns:repeat(3,1fr);align-items:center;justify-items:center;gap:clamp(2rem,5vw,3.4rem) clamp(1.5rem,4vw,3rem);margin-top:2.2rem}
+.logo-strip img{width:auto;height:auto;max-height:80px;max-width:100%;object-fit:contain}
+@media (max-width:680px){.logo-strip{grid-template-columns:repeat(2,1fr);gap:2rem 1.5rem}.logo-strip img{max-height:62px}}
 
 /* ---------- CTA band (Tap Into the Signal) ---------- */
 .signal{position:relative;color:#fff;text-align:center;overflow:hidden}
